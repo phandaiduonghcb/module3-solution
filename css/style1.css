@@ -1,0 +1,98 @@
+* {
+	font-family: 'Roboto Mono', monospace;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+#menu-title{
+	margin-top: 50px;
+	font-size: 24px;
+	font-weight: bold;
+}
+#headernav {
+	background-color: gray;
+	border-bottom: 2px solid black;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#brandname {
+	margin-left: 20px;
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#brandname:hover {
+	color: black;
+}
+#chicken,#beef,#sushi {
+	background-color: #C0C0C0;
+}
+#chicken h2,#beef h2,#sushi h2 {
+	font-size:20px;
+}
+#chicken p,#beef p,#sushi p {
+	margin-top: 20px;
+	font-size: 14px;
+}
+.navbar-default .navbar-header .icon-bar{
+	border:2px solid black;
+	color: black;
+	background-color: black;
+}
+.navbar-default button.navbar-toggle {
+	border:2px solid black;
+}
+#collapsable-nav {
+	margin: 0px;
+}
+#headernav .container {
+	padding: 0;
+}
+#menubutton {
+	margin-right: 30px;
+}
+#navlist li {
+	margin: 0;
+}
+#navlist li span {
+	font-weight: bold;
+}
+hr {
+	background-color: black;
+	border-color: black;
+	border-width: 1.5px;
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+}
+
+@media (max-width: 767px) {
+	#collapsable-nav {
+		border-top: 2px solid black;
+	}
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: gray;
+    border-color: #ddd;
+}
+#menubutton:hover > span.icon-bar, #menubutton:focus > span.icon-bar {
+	border:2px solid #ddd;
+	color: #ddd;
+	background-color: #ddd;
+}
+/*@media (min-width: 1200px) {
+	#section1.container{
+		width: 95%;
+	}
+}*/
+.row {
+	margin:5%;
+	margin-top: 20px;
+}
+.box{
+  box-sizing: border-box;
+  border: 20px solid transparent;
+  background-clip:padding-box;
+}
+a:hover {
+	text-decoration: none;
+}
